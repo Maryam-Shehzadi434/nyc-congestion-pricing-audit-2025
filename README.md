@@ -180,15 +180,6 @@ streamlit run dashboard.py
 
 <hr>
 
-<h2>📄 License</h2>
-<p>MIT License</p>
-
-<h2>📞 Contact</h2>
-<p>
-<strong>Role:</strong> Lead Data Scientist<br>
-<strong>Focus:</strong> Transportation Analytics & Policy Auditing<br>
-<strong>LinkedIn:</strong> Available upon request
-</p>
 
 </body>
 </html>
