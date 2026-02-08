@@ -1,0 +1,63 @@
+
+    NYC CONGESTION PRICING AUDIT - PHASE 4: THE RAIN TAX
+    ======================================================
+    
+    DATA SOURCES:
+    1. Weather Data: Daily precipitation for Central Park, NYC (2025)
+       - Source: Open-Meteo Historical Weather API
+       - Coordinates: 40.7812° N, 73.9665° W (Central Park)
+       - Period: January 1, 2025 - December 31, 2025
+       - Total precipitation: 1077 mm
+       - Rainy days: 166 (47.2% of days)
+    
+    2. Taxi Data: NYC Yellow Taxi daily trip counts (2025)
+       - Source: NYC TLC processed data
+       - Total trips analyzed: 43,241,105
+       - Average daily trips: 122,844
+       - Date range: 2025-01-01 to 2025-11-30
+    
+    METHODOLOGY:
+    - Daily precipitation data was fetched from Open-Meteo API
+    - Data was merged with daily taxi trip counts
+    - Rain Elasticity of Demand was calculated using correlation and regression analysis
+    - Analysis focused on the wettest month as required
+    
+    KEY FINDINGS:
+    1. Correlation Analysis:
+       - Correlation coefficient: 0.031
+       - Interpretation: Positive correlation: rain increases taxi demand
+    
+    2. Regression Results:
+       - Slope: -201 trips per mm of rain
+       - R-squared: 0.0033
+       - P-value: 0.4602
+    
+    3. Rain Elasticity of Demand:
+       - Elasticity: -1.063% change per mm rain
+       - Interpretation: 1mm increase in rain leads to approximately 1.06% increase in taxi demand
+    
+    4. Wettest Month Analysis:
+       - Wettest month: May 2025
+       - Total precipitation: 200 mm
+       - Days with rain: 23
+    
+    POLICY IMPLICATIONS:
+    - The weak correlation (0.031) suggests rain has minimal impact on taxi demand
+    - This contradicts the "Rain Tax" hypothesis that rainfall significantly affects ridership
+    - Transportation planners should consider other factors beyond weather for demand forecasting
+    
+    FILES GENERATED:
+    1. C:\Users\black\OneDrive - FAST National University\nyc_congestion\outputs\visualizations\central_park_precipitation_2025_real.csv - Real weather data
+    2. C:\Users\black\OneDrive - FAST National University\nyc_congestion\outputs\visualizations\daily_taxi_trips_2025_real.csv - Taxi trip counts
+    3. C:\Users\black\OneDrive - FAST National University\nyc_congestion\outputs\visualizations\rain_tax_analysis_real_api.png - Analysis visualization
+    4. C:\Users\black\OneDrive - FAST National University\nyc_congestion\outputs\visualizations\rain_tax_academic_report.txt - This summary
+    
+    DATA VALIDATION:
+    - Weather data sourced from reputable Open-Meteo API
+    - Taxi data from official NYC TLC sources
+    - Statistical methods: Pearson correlation, linear regression
+    - Results are reproducible with provided code and data
+    
+    ======================================================
+    Report Generated: 2026-02-08 08:13:50
+    

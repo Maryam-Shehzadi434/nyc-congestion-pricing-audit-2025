@@ -1,0 +1,56 @@
+NYC CONGESTION PRICING: TIP CROWDING OUT ANALYSIS
+Generated: 2026-02-08 08:25:25
+====================================================================================================
+
+HYPOTHESIS TESTED:
+"Higher congestion surcharges reduce disposable income passengers leave for drivers"
+→ If true: Should see NEGATIVE correlation between surcharge amount and tip percentage
+
+ANALYSIS METHODOLOGY:
+1. Calculated tip percentage for each trip: Tip % = (total_amount - fare - congestion_surcharge) / fare * 100
+2. Aggregated monthly averages for surcharge and tip percentage
+3. Calculated correlation between surcharge and tip percentage at individual trip level
+
+RESULTS:
+----------------------------------------------------------------------------------------------------
+YELLOW TAXIS:
+• Months analyzed: 11
+• Overall average surcharge: $2.19
+• Overall average tip percentage: 40.86%
+• Correlation (surcharge vs tips): 0.400
+
+Interpretation: STRONG POSITIVE CORRELATION
+
+Hypothesis assessment: CONTRADICTED - Higher surcharges associated with HIGHER tips
+
+----------------------------------------------------------------------------------------------------
+GREEN TAXIS:
+• Months analyzed: 12
+• Overall average surcharge: $0.91
+• Overall average tip percentage: 34.85%
+• Correlation (surcharge vs tips): 0.006
+
+Interpretation: NO SIGNIFICANT CORRELATION
+
+Hypothesis assessment: NOT SUPPORTED - No clear relationship
+
+====================================================================================================
+OVERALL CONCLUSION:
+The "Tip Crowding Out" hypothesis is STRONGLY CONTRADICTED.
+
+Yellow taxis show a POSITIVE relationship between surcharge and tips,
+while green taxis show POSITIVE relationship.
+
+====================================================================================================
+POLICY IMPLICATIONS:
+1. Congestion pricing does NOT appear to be "crowding out" driver tips through reduced passenger disposable income
+2. Yellow taxi drivers actually receive HIGHER tip percentages when surcharges are higher
+3. No evidence that congestion pricing negatively impacts driver compensation through tip reduction
+4. Further analysis could investigate why green taxis show different patterns than yellow taxis
+
+====================================================================================================
+VISUALIZATIONS CREATED:
+1. tip_crowding_monthly_charts.png - Dual-axis charts showing monthly averages (Bars: Surcharge, Lines: Tip %)
+2. tip_crowding_correlation_plots.png - Scatter plots showing individual trip correlations
+3. This summary report
+====================================================================================================

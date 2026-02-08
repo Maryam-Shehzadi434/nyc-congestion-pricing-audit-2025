@@ -1,0 +1,27 @@
+==================================================
+CONGESTION VELOCITY HEATMAP ANALYSIS
+Generated: 2026-02-08 08:01:02
+==================================================
+
+Analysis of average taxi speeds inside Manhattan Congestion Zone (south of 60th St)
+Comparison: Q1 2024 (before congestion pricing) vs Q1 2025 (after implementation)
+
+YELLOW TAXIS:
+  Q1 2024 Average Speed: 13.39 MPH
+  Q1 2025 Average Speed: 13.16 MPH
+  Change: -0.23 MPH (-1.73%)
+  → MINIMAL CHANGE - Congestion pricing has little effect on speeds
+
+GREEN TAXIS:
+  Q1 2024 Average Speed: 12.31 MPH
+  Q1 2025 Average Speed: 12.61 MPH
+  Change: +0.29 MPH (+2.39%)
+
+==================================================
+OVERALL ASSESSMENT OF CONGESTION PRICING IMPACT:
+-->LITTLE EVIDENCE that congestion pricing improved traffic flow
+   Taxi speeds show minimal or negative change
+
+HYPOTHESIS TEST: 'Did the toll actually speed up traffic?'
+⚠ PARTIALLY SUPPORTED: Small speed increase (0.3%)
+==================================================
