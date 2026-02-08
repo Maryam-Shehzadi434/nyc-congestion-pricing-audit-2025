@@ -26,10 +26,10 @@ behavioral shifts, and enforcement leakage</strong>.
 
 <h3>Executive Verdict</h3>
 <ul>
-  <li>✅ <strong>Revenue generation is strong</strong>, driven primarily by Yellow Taxi compliance</li>
-  <li>⚠️ <strong>Traffic speed improvements are marginal</strong>, indicating pricing alone is insufficient</li>
-  <li>❌ <strong>Green Taxi compliance is critically low (23.7%)</strong>, exposing major leakage</li>
-  <li>✅ <strong>Drivers benefit economically</strong> through higher tipping behavior</li>
+  <li> <strong>Revenue generation is strong</strong>, driven primarily by Yellow Taxi compliance</li>
+  <li> <strong>Traffic speed improvements are marginal</strong>, indicating pricing alone is insufficient</li>
+  <li> <strong>Green Taxi compliance is critically low (23.7%)</strong>, exposing major leakage</li>
+  <li> <strong>Drivers benefit economically</strong> through higher tipping behavior</li>
 </ul>
 
 <hr>
